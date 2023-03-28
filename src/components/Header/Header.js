@@ -4,7 +4,9 @@ function Header() {
   return (
     <>
       <div className="header">
-      Header
+        <div className="header__container">
+          Header
+        </div>
       </div>
     </>
   );
