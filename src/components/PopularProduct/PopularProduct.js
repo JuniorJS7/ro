@@ -4,7 +4,7 @@ function PopularProduct() {
   return (
     <>
       <div className="popularProduct">
-        Популярные товары
+        Популярные товары 5555555555
       </div>
     </>
   );
