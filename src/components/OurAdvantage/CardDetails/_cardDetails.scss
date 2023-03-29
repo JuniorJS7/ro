@@ -1,0 +1,46 @@
+@use "./abstracts" as *;
+.main {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+
+  // @include grid(3, 2%);
+}
+.container {
+  border: 1px solid;
+  border-radius: 36px;
+  box-shadow: (2px 4px 27px rgba(0, 0, 0, 0.25));
+  &:hover {
+    box-shadow: 2px 4px 27px 1px #888888;
+  }
+  @include transition(box-shadow 0.2s ease);
+  padding-left: 30px;
+}
+
+h1 {
+  font-size: 36px;
+  font-family: $bodyFont;
+  text-align: left;
+  line-height: 100%;
+}
+p {
+  font-size: 30px;
+  font-family: $bodyFont;
+  text-align: left;
+  line-height: 100%;
+}
+// @media screen and (min-width: 480px) and (max-width: 767px) {
+//   .main {
+//     @include grid(2, 2%);
+//   }
+// }
+// @media screen and (min-width: 768px) and (max-width: 919px) {
+//   .main {
+//     @include grid(3, 2%);
+//   }
+// }
+// @media screen and (min-width: 920px) {
+//   .main {
+//     @include grid(4, 2%);
+//   }
+// }
