@@ -20,8 +20,6 @@ function SuitableProduct() {
           </p>
           <button>Создать в конструкторе</button>
         </div>
-
-        Не нашли подходящий товар?
       </div>
     </>
   );
