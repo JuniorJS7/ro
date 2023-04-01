@@ -1,10 +1,35 @@
 @use "./abstracts" as *;
 .main {
   display: grid;
-  grid-template-columns: auto auto auto;
-  padding: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
 
-  // @include grid(3, 2%);
+// @media only screen and (max-width: 600px) {...}
+
+// @media only screen and (min-width: 600px) {...}
+
+// @media only screen and (min-width: 768px) {...}
+@media only screen and (min-width: 300px) {
+  .main {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+.section {
+  padding: 10px;
 }
 .container {
   border: 1px solid;
@@ -15,6 +40,7 @@
   }
   @include transition(box-shadow 0.2s ease);
   padding-left: 30px;
+  min-height: 240px;
 }
 
 h1 {
@@ -29,18 +55,3 @@ p {
   text-align: left;
   line-height: 100%;
 }
-// @media screen and (min-width: 480px) and (max-width: 767px) {
-//   .main {
-//     @include grid(2, 2%);
-//   }
-// }
-// @media screen and (min-width: 768px) and (max-width: 919px) {
-//   .main {
-//     @include grid(3, 2%);
-//   }
-// }
-// @media screen and (min-width: 920px) {
-//   .main {
-//     @include grid(4, 2%);
-//   }
-// }

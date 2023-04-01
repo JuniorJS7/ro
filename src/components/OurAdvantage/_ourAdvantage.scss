@@ -1,6 +1,8 @@
+@use "./Carddetails/abstracts" as *;
 .ourAdvantage {
   font-family: "Monsterrat", sans-serif;
   margin: 20px;
   font-weight: 500;
   font-size: 72px;
+  word-break: break-all;
 }

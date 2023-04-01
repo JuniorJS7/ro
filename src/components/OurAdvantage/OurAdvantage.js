@@ -4,9 +4,11 @@ function OurAdvantage({ titles }) {
   return (
     <>
       <div className="ourAdvantage">Что вы получаете выбирая нас:</div>
-      {titles.map((title) => {
-        return <CardDetails key={title.id} title={title} />;
-      })}
+      <div className="main">
+        {titles.map((title) => {
+          return <CardDetails key={title.id} title={title} />;
+        })}
+      </div>
     </>
   );
 }
