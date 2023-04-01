@@ -1,70 +1,57 @@
-.suitableProduct {
-  position: absolute;
-  width: 1692px;
-  height: 602px;
-  left: 114px;
-  top: 4858px;
 
-  background: #FEFEFE;
-  box-shadow: 2px 4px 27px rgba(0, 0, 0, 0.25);
-  border-radius: 36px;
+  .suitableProduct {
+    max-width: 1692px;
+    padding: 30px 40px;
+    padding-bottom: 80px;
+    background: #FEFEFE;
+    box-shadow: 2px 4px 27px rgba(0, 0, 0, 0.25);
+    border-radius: 36px;
+    display: flex;
+  }
+
+  .suitableProduct .image8 {
+    position: absolute;
+    height: 20%;
+    margin-top: 110px;
+    z-index: 2;
+  }
+
+  .suitableProduct .image17 {
+    margin-left: 70px;
+    margin-top: 15px;
+  }
+
+  .suitableProductText {
+    margin-left: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    text-align: left;
+    color: #000000;
+  }
+
+  .suitableProductText button {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 37px;
+    text-align: center;
+    border: #F2F2F2;
+    background: #F2F2F2;
+    box-shadow: 2px 4px 27px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 82px;
+  }
+  .suitableProductText button:hover{
+    background-color: rgb(242, 237, 231);
+  }
+
+@media screen and  (max-width: 1240px) {
+
 }
+@media screen and  (max-width: 768px) {
+  .suitableProduct {
+    display: block;
 
-.suitableProduct .image8 {
-  position: absolute;
-  width: 267px;
-  height: 321px;
-  left: 50px;
-  top: 230px;
-  z-index: 2;
-
-
-  // background: url(image.png);
-}
-
-.suitableProduct .image17 {
-
-  position: absolute;
-  width: 454px;
-  height: 454px;
-  left: 190px;
-  top: 15px;
-}
-
-.suitableProductText {
-
-  position: absolute;
-  width: 822px;
-  height: 150px;
-  left: 883px;
-  top: 100px;
-
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 37px;
-  text-align: left;
-
-  color: #000000;
-
-}
-
-.suitableProductText button {
-  position: absolute;
-  width: 480px;
-  height: 71px;
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 37px;
-  text-align: center;
-  border: #F2F2F2;
-
- 
-
-  background: #F2F2F2;
-  box-shadow: 2px 4px 27px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 82px;
+  }
 }
