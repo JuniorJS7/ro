@@ -1,6 +1,79 @@
 .quesitions {
-  width: 100px;
-  height: 100px;
-  margin: 20px;
-  background-color: rgb(184, 228, 211);
+  width: 100%;
+  min-height: 497px;
+  background-color: rgb(234, 234, 234);
+  .container {
+    max-width: 1686px;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    .otherQuestions {
+      max-width: 803;
+      width: 100%;
+      min-height: 83px;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      h2 {
+        max-width: 754px;
+        width: 100%;
+        min-height: 91px;
+
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 72px;
+        line-height: 88px;
+        text-align: center;
+
+        color: #000000;
+      }
+      p {
+        max-width: 557px;
+        width: 100%;
+        min-height: 81px;
+
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 39px;
+        text-align: center;
+
+        color: #000000;
+      }
+      .buttons {
+        max-width: 803px;
+        width: 100%;
+        min-height: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        button {
+          max-width: 387px;
+          width: 100%;
+          min-height: 80px;
+
+          background: #ffffff;
+          box-shadow: 2px 4px 27px rgba(0, 0, 0, 0.25);
+          border-radius: 58px;
+
+          font-family: "Montserrat";
+          font-style: normal;
+          font-weight: 300;
+          font-size: 36px;
+          line-height: 44px;
+
+          text-align: center;
+
+          color: #000000;
+        }
+      }
+    }
+  }
 }
