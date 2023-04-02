@@ -1,6 +1,384 @@
 .popularProduct {
-  width: 100px;
-  height: 100px;
-  margin: 20px;
-  background-color: rgb(184, 228, 211);
+  min-width: 1920px;
+  background-color: #EAEAEA;
+  padding: 0 104px 0 125px;
+  box-sizing: border-box;
+
+  .popularProduct_contener {
+    background-color: rgb(41, 118, 47);
+    display: flex;
+    flex-direction: column;
+
+    .popular_contner_text {
+      background-color: red;
+      padding: 90px 0 80px 31px;
+
+      .popular_text {
+        margin: 0;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 72px;
+        line-height: 88px;
+        text-align: start;
+      }
+    }
+
+    .store_contener {
+      padding-bottom: 149px;
+      background-color: rgb(243, 193, 27);
+
+      .block_all {
+        display: flex;
+        justify-content: space-between;
+
+        .block {
+          height: 754px;
+          flex-basis: 32%;
+          background-color: rgba(97, 148, 42, 0.652);
+
+          .imgBlock {
+            display: flex;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+
+            min-height: 613px;
+            background: #FFFFFF;
+            box-shadow: 2px 4px 27px rgba(0, 0, 0, 0.25);
+            border-radius: 36px;
+            padding: 91px 68px 61px 74px;
+            box-sizing: border-box;
+            position: relative;
+
+            img {
+              background-repeat: no-repeat;
+              background-size: cover;
+              background-position: center;
+              width: 70%;
+              height: 70%;
+              position: absolute;
+              z-index: 1;
+            }
+
+            .imgPrice {
+              position: absolute;
+              right: 6%;
+              font-family: 'Montserrat';
+              font-style: normal;
+              font-weight: 400;
+              font-size: 36px;
+              line-height: 44px;
+              color: #000000;
+              z-index: 2;
+
+              p {
+                margin: 0 0 10px 0;
+                background-color: #EAEAEA;
+                border-radius: 53px;
+              }
+            }
+          }
+
+          .title {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 12px;
+
+            p {
+              margin: 0;
+              padding-top: 12px;
+              font-family: 'Montserrat' sans-serif;
+              font-style: normal;
+              font-weight: 400;
+              font-size: 36px;
+              line-height: 44px;
+            }
+
+            span {
+              font-family: 'Montserrat' sans-serif;
+              font-style: normal;
+              font-weight: 400;
+              font-size: 48px;
+              line-height: 59px;
+            }
+          }
+
+          .basket {
+            display: flex;
+
+            button {
+              margin: 16px 0 0 0;
+              background: #FFFFFF;
+              box-shadow: 2px 4px 27px rgba(0, 0, 0, 0.25);
+              border-radius: 36px;
+              padding: 5px 32px 8px 25px;
+              border: none;
+              font-family: 'Montserrat';
+              font-style: normal;
+              font-weight: 400;
+              font-size: 36px;
+              line-height: 44px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1920px) {
+  .popularProduct {
+    min-width: 1720px;
+    background-color: #EAEAEA;
+    padding: 0 94px 0 115px;
+    box-sizing: border-box;
+  }
+
+  .popularProduct>.popularProduct_contener>.store_contener {
+    padding-bottom: 139px;
+  }
+
+  .popularProduct>.popularProduct_contener>.popular_contner_text {
+    padding: 80px 0 70px 25px;
+  }
+
+  .popularProduct>.popularProduct_contener>.popular_contner_text>.popular_text {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 88px;
+    text-align: start;
+  }
+
+  .popularProduct>.popularProduct_contener>.store_contener>.block_all>.block {
+    height: 654px;
+  }
+
+  .popularProduct>.popularProduct_contener>.store_contener>.block_all>.block>.imgBlock {
+    min-height: 513px;
+    padding: 81px 60px 51px 64px;
+  }
+  .popularProduct > .popularProduct_contener> .store_contener >.block_all >.block > .title{
+    margin: 0;
+  }
+  .popularProduct > .popularProduct_contener> .store_contener >.block_all >.block > .basket > button{
+    margin: 0;
+  }
+}
+
+@media (max-width: 1720px) {
+  .popularProduct {
+    min-width: 1520px;
+    background-color: #EAEAEA;
+    padding: 0 84px 0 105px;
+    box-sizing: border-box;
+  }
+
+  .popularProduct>.popularProduct_contener>.store_contener {
+    padding-bottom: 129px;
+  }
+
+  .popularProduct>.popularProduct_contener>.popular_contner_text {
+    padding: 70px 0 60px 20px;
+  }
+
+  .popularProduct>.popularProduct_contener>.popular_contner_text>.popular_text {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 88px;
+    text-align: start;
+  }
+
+  .popularProduct>.popularProduct_contener>.store_contener>.block_all>.block {
+    height: 554px;
+  }
+
+  .popularProduct>.popularProduct_contener>.store_contener>.block_all>.block>.imgBlock {
+    min-height: 413px;
+    padding: 71px 50px 41px 54px;
+  }
+  .popularProduct > .popularProduct_contener> .store_contener >.block_all >.block >.imgBlock > .imgPrice {
+    font-size: 26px;
+  }
+  .popularProduct > .popularProduct_contener> .store_contener >.block_all >.block > .title > p{
+    font-size: 26px;
+    line-height: 34px;
+  }
+  .popularProduct > .popularProduct_contener> .store_contener >.block_all >.block > .title > span{
+    font-size: 38px;
+    line-height: 49px;
+  }
+  .popularProduct > .popularProduct_contener> .store_contener >.block_all >.block > .basket > button{
+    font-size: 26px;
+  }
+
+}
+
+@media (max-width: 1520px) {
+  .popularProduct {
+    min-width: 1320px;
+    background-color: #EAEAEA;
+    padding: 0 74px 0 95px;
+    box-sizing: border-box;
+  }
+
+  .popularProduct>.popularProduct_contener>.store_contener {
+    padding-bottom: 119px;
+  }
+
+  .popularProduct>.popularProduct_contener>.popular_contner_text {
+    padding: 50px 0 40px 18px;
+  }
+
+  .popularProduct>.popularProduct_contener>.popular_contner_text>.popular_text {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 88px;
+    text-align: start;
+  }
+
+  .popularProduct>.popularProduct_contener>.store_contener>.block_all>.block {
+    height: 454px;
+  }
+
+  .popularProduct>.popularProduct_contener>.store_contener>.block_all>.block>.imgBlock {
+    min-height: 313px;
+    padding: 61px 40px 31px 44px;
+  }
+  .popularProduct > .popularProduct_contener> .store_contener >.block_all >.block >.imgBlock > .imgPrice {
+    font-size: 20px;
+  }
+  .popularProduct > .popularProduct_contener> .store_contener >.block_all >.block > .title > p{
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .popularProduct > .popularProduct_contener> .store_contener >.block_all >.block > .title > span{
+    font-size: 30px;
+    line-height: 39px;
+  }
+  .popularProduct > .popularProduct_contener> .store_contener >.block_all >.block > .basket > button{
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .popularProduct {
+    min-width: 970px;
+    background-color: #EAEAEA;
+    padding: 0 64px 0 85px;
+    box-sizing: border-box;
+  }
+
+  .popularProduct>.popularProduct_contener>.store_contener {
+    padding-bottom: 109px;
+  }
+
+  .popularProduct>.popularProduct_contener>.popular_contner_text {
+    padding: 40px 0 30px 18px;
+  }
+
+  .popularProduct>.popularProduct_contener>.popular_contner_text>.popular_text {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    text-align: start;
+  }
+
+  .popularProduct>.popularProduct_contener>.store_contener>.block_all>.block {
+    height: 404px;
+  }
+  .popularProduct>.popularProduct_contener>.store_contener>.block_all>.block>.imgBlock {
+    min-height: 253px;
+    padding: 51px 30px 21px 34px;
+  }
+  .popularProduct > .popularProduct_contener> .store_contener >.block_all >.block >.imgBlock > .imgPrice {
+    font-size: 16px;
+  }
+  .popularProduct > .popularProduct_contener> .store_contener >.block_all >.block > .title > p{
+    font-size: 16px;
+  }
+  .popularProduct > .popularProduct_contener> .store_contener >.block_all >.block > .title > span{
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .popularProduct > .popularProduct_contener> .store_contener >.block_all >.block > .basket > button{
+    font-size: 16px;
+    padding: 2px 32px 3px 25px;
+  }
+}
+
+@media (max-width: 992px) {
+  .popularProduct {
+    min-width: 750px;
+    background-color: #EAEAEA;
+    padding: 0 54px 0 75px;
+    box-sizing: border-box;
+  }
+
+  .popularProduct>.popularProduct_contener>.store_contener {
+    padding-bottom: 85px;
+  }
+
+  .popularProduct>.popularProduct_contener>.popular_contner_text>.popular_text {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 40px;
+    text-align: start;
+  }
+
+  .popularProduct>.popularProduct_contener>.store_contener>.block_all>.block {
+    height: 354px;
+  }
+  .popularProduct > .popularProduct_contener> .store_contener >.block_all >.block > .title > p{
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+@media (max-width: 765px) {
+  .popularProduct {
+    min-width: 500px;
+    background-color: #EAEAEA;
+    padding: 0 44px 0 65px;
+    box-sizing: border-box;
+  }
+
+  .popularProduct>.popularProduct_contener>.store_contener {
+    padding-bottom: 55px;
+  }
+
+  .popularProduct>.popularProduct_contener>.popular_contner_text>.popular_text {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: start;
+  }
+
+  .popularProduct>.popularProduct_contener>.store_contener>.block_all {
+    display: block;
+  }
+  .popularProduct>.popularProduct_contener>.store_contener>.block_all>.block {
+    margin-bottom: 10px;
+
+  }
 }

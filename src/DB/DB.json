@@ -1,0 +1,30 @@
+ 
+
+{
+    "popular" : [
+        {
+            "id": 1,
+            "title" : "Магнезия жесткая",
+            "price" : "750 ₽ ",
+            "basket" : false,
+            "discount" : "10%",
+            "url" : "https://s3-alpha-sig.figma.com/img/456b/d4a2/e077543f90c3ca103cf81d45652711e1?Expires=1681084800&Signature=eH54g84qHQwdsSz6hWlS7~W2k48yVqRmlVtdlGyCQiJUalolznRh-oXnDqjBNqWwCPEefw8D6zMZZAoO9~ntgmgAZ9rAxj5Ke7GA5jjCExn2eeQKg2yvU7l1fy-GqESxtGRhQTW0aoiFQdKTg7BoTPJI8C9VwYNzLCFhKjzUN9BIlsq2mxo3mdGgWAs1JlJisnIpIePb-mjDkMXjcDJM8O1B84iXpzKbOE7PrT7DqXseX6NLJZtAWfxwg-u1ezDKuR-m5aJEWxyjNIaf7gImiGq4iKdYDCrkNJLC~QarXJjOnqvrkA7t1jDauDk2sFXkjGLzFxzwZAIMo5zwb~Xbxg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+          },
+          {
+            "id": 1,
+            "title" : "Маска для лица",
+            "price" : "150 ₽ ",
+            "basket" : false,
+            "discount" : "",
+            "url" : "https://s3-alpha-sig.figma.com/img/614d/2ae1/bdeeb79a97d95d5143b58d501428d486?Expires=1681084800&Signature=VQ77bYLyFGa3cTscGrDGPnMpBc-9VFfpdfdF536DUzW20aPHzHeGuvUVHpW~4bcR2L7VqgBJ34gOAliGEmmXSQhpp-cm76PsRMT5l3JjFNFJKQxddQOZMLG-QrAcFcdBrrI-LQI-LRsxFLsE5g7TiF1KMyB9-WGKn84AjDWZf3Dd4qxXjhoRsnqOX~zmAKaqNPr0mGezyQhzEL1iW4eZXdzuOuWNoZ4xIggGQRZMCZ1NvVbWM-zLDlenprIjn2YihEKaYkvx49MK8eqHOWsPxAaY3QN1EeIUsmjeCNALu43qk3RXnw7Avy28qooFgRbWUUyvqeRUXufKMQtQGVcFUw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+          },
+          {
+            "id": 1,
+            "title" : "Женская футболка...",
+            "price" : "950 ₽",
+            "basket" : false,
+            "discount" : "10%",
+            "url" : "https://s3-alpha-sig.figma.com/img/7c16/1b06/d41d63e74d69066d34a1a3e7170387bc?Expires=1681084800&Signature=BF~OhdATiZKP7EKQkBlMdGsVFWemdEgRHiNkZwJ7G8JNSaIiJ6-lZ8-dgbE3RDmpTfXlp7ngCck97zhpFDomx85wDIgvxWPVqvnHUyX6zHq4YTi850OawsL-TBHYRP-FC7uxGam-TY4Atjkv3CC6MqpBl1d750EH2uyUryK~DD97CfHcsRg5TK8ABhKCJKMW9UKhswQ70ekRAZhrhCgy3o-jhwE40s7SOwoxDgcUgs2sAVy6O7GWG2aJ6Hlr7wE-YI~Wj2qPNGI4AwvGl2iPnrRAnjMsJryl3OlfuA26BWrYsO0rFLvip3tEbh6hsDCIdhxcZkhiaw~8Y~SNkx4QZw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+          }
+    ] 
+}
