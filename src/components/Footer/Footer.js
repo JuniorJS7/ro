@@ -1,10 +1,4 @@
-import './_footer.scss';
-
-function Footer() {
-  return (
-    <>
-      <div className="footer">
-        <div className = "Footer1" style={{display: "flex"}}>
+<div className = "footer1" style={{display: "flex"}}>
           <ul>
             <li><a href="#">Оплата</a></li>
             <li><a href="#">Возврат</a></li>
@@ -24,7 +18,7 @@ function Footer() {
             <li><a href="#">Создание дизайна формы </a></li>
           </ul>
 
-          <ul>
+          <ul className = "contacts">
             <li><a href="#">8(499)300-49-49</a></li>
             <li><a href="#">info@markov-team.ru</a></li>
             <li><a href="#"> Facebook </a>
@@ -33,31 +27,26 @@ function Footer() {
             <a href="#"> Pinterest </a>
          </li>
           </ul>
-          
         </div>
+      
 
-        <div className = "Footer2"> 
-        <div>    
-        <a href="#"> Футбольная форма </a>
-        <a href="#"> Волейбольная форма </a>
-        <a href="#"> Гимнастический купальник </a>
-        <a href="#"> Гиревая форма </a>
-        <a href="#"> Тяжелоатлетический костюм </a>
+        <div className = "footer2"> 
+        <div className = "minimizedText">    
+        <a href="#">   Футбольная форма   </a>
+        <a href="#">   Волейбольная форма   </a>
+        <a href="#">   Гимнастический купальник   </a>
+        <a href="#">   Гиревая форма   </a>
+        <a href="#">   Тяжелоатлетический костюм   </a>
         </div>
         <div>
-        <a href="#"> Майки </a>
-        <a href="#"> Футболки </a>
-        <a href="#"> Леггинсы </a>
-        <a href="#"> Велосипедки </a>
-        <a href="#"> Маски </a>
-        <a href="#"> Ремни </a>
-        <a href="#"> Штангетки </a>
-        <a href="#"> Магнезия </a>
+        <a href="#">   Майки   </a>
+        <a href="#">   Футболки   </a>
+        <a href="#">   Леггинсы   </a>
+        <a href="#">   Велосипедки   </a>
+        <a href="#">   Маски   </a>
+        <a href="#">   Ремни   </a>
+        <a href="#">   Штангетки   </a>
+        <a href="#">   Магнезия   </a>
         </div>
         </div>
-      </div>
-    </>
-  );
-}
-
-export default Footer;
+        </div>
