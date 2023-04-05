@@ -1,4 +1,10 @@
-<div className = "footer1" style={{display: "flex"}}>
+import './_footer.scss';
+
+function Footer() {
+  return (
+    <>
+      <div className="footer">
+        <div className = "footer1" style={{display: "flex"}}>
           <ul>
             <li><a href="#">Оплата</a></li>
             <li><a href="#">Возврат</a></li>
@@ -21,11 +27,12 @@
           <ul className = "contacts">
             <li><a href="#">8(499)300-49-49</a></li>
             <li><a href="#">info@markov-team.ru</a></li>
-            <li><a href="#"> Facebook </a>
+            <li>
+            <a href="#"> Facebook </a>
             <a href="#"> Twitter </a>
             <a href="#"> Instagram </a>
             <a href="#"> Pinterest </a>
-         </li>
+          </li>
           </ul>
         </div>
       
@@ -49,4 +56,14 @@
         <a href="#">   Магнезия   </a>
         </div>
         </div>
-        </div>
+      </div>
+    </>
+  );
+}
+
+export default Footer;
+
+
+
+
+        
