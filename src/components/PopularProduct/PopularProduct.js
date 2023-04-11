@@ -3,14 +3,10 @@ import DB from './../../DB/DB.json'
 
 function PopularProduct() {
 
-  const isBasket = () => {
-  }
-
-
   const img1 = DB.popular[0].url;
   const img2 = DB.popular[1].url;
   const img3 = DB.popular[2].url;
-  
+
   return (
     <>
       <div className="popularProduct">
@@ -37,7 +33,7 @@ function PopularProduct() {
                   <span>{DB.popular[0].price}</span>
                 </div>
                 <div className="basket">
-                  <button onClick={isBasket}>В корзину</button>
+                  <button >В корзину</button>
                 </div>
               </div>
 
@@ -46,14 +42,14 @@ function PopularProduct() {
                   <div className='imgPrice'>
                     <p>Бесплатная доставка</p>
                   </div>
-                  <img src={img2} alt="img-1 " />
+                  <img src={img2} alt="img-2 " />
                 </div>
                 <div className="title">
                   <p>{DB.popular[1].title}</p>
                   <span>{DB.popular[1].price}</span>
                 </div>
                 <div className="basket">
-                  <button onClick={isBasket}>В корзину</button>
+                  <button >В корзину</button>
                 </div>
                 <div className="title"></div>
                 <div className="basket"></div>
@@ -64,14 +60,14 @@ function PopularProduct() {
                   <div className='imgPrice'>
                     <p>Скидка 10%</p>
                   </div>
-                  <img src={img3} alt="img-1 " />
+                  <img src={img3} alt="img-3 " />
                 </div>
                 <div className="title">
                   <p>{DB.popular[2].title}</p>
                   <span>{DB.popular[2].price}</span>
                 </div>
                 <div className="basket">
-                  <button onClick={isBasket}>В корзину</button>
+                  <button>В корзину</button>
                 </div>
                 <div className="title"></div>
                 <div className="basket"></div>
