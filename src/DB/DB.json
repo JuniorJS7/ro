@@ -6,7 +6,7 @@
             "id": 1,
             "title" : "Магнезия жесткая",
             "price" : "750 ₽ ",
-            "basket" : false,
+            "basket" : true,
             "discount" : "10%",
             "url" : "https://s3-alpha-sig.figma.com/img/456b/d4a2/e077543f90c3ca103cf81d45652711e1?Expires=1681084800&Signature=eH54g84qHQwdsSz6hWlS7~W2k48yVqRmlVtdlGyCQiJUalolznRh-oXnDqjBNqWwCPEefw8D6zMZZAoO9~ntgmgAZ9rAxj5Ke7GA5jjCExn2eeQKg2yvU7l1fy-GqESxtGRhQTW0aoiFQdKTg7BoTPJI8C9VwYNzLCFhKjzUN9BIlsq2mxo3mdGgWAs1JlJisnIpIePb-mjDkMXjcDJM8O1B84iXpzKbOE7PrT7DqXseX6NLJZtAWfxwg-u1ezDKuR-m5aJEWxyjNIaf7gImiGq4iKdYDCrkNJLC~QarXJjOnqvrkA7t1jDauDk2sFXkjGLzFxzwZAIMo5zwb~Xbxg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
           },
