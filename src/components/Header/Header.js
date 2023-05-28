@@ -6,11 +6,13 @@ function Header() {
   const [toggleMenu, setToggleMenu] = useState(false);
   const [toggleInfo, setToggleInfo] = useState(false);
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+
   const toggleNav = () => {
     setToggleMenu(!toggleMenu);
   };
   const toggleDetails = () => {
     setToggleInfo(!toggleInfo);
+    
   };
   useEffect(() => {
     const changeWidth = () => {
